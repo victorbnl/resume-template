@@ -13,7 +13,14 @@ in
   ];
 
   scripts = {
-    build.exec = "typst compile --root . --ignore-system-fonts resume/$1.typ output/$1.pdf";
-    watch.exec = "typst watch --root . --ignore-system-fonts resume/$1.typ output/$1.pdf";
+    build.exec = ''
+      mkdir -p output
+      typst compile --root . --ignore-system-fonts resume/$1.typ output/$1.pdf
+    '';
+
+    watch.exec = ''
+      mkdir -p output
+      typst watch --root . --ignore-system-fonts resume/$1.typ output/$1.pdf
+    '';
   };
 }
