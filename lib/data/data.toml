@@ -1,0 +1,166 @@
+[profile]
+name = "Victor BONNELLE"
+label = "Étudiant"
+
+summary = """
+Étudiant à la recherche d’un travail saisonnier, ouvert à la découverte de \
+nouvelles activités.
+"""
+
+
+[[contacts]]
+icon = "\ued00"
+text = "Lens (62300)"
+
+[[contacts]]
+icon = "\uf095"
+text = "07 76 05 03 49"
+link = "tel:+33776050349"
+
+[[contacts]]
+icon = "\uf0e0"
+text = "bonnelle.victor@gmail.com"
+link = "mailto:bonnelle.victor@gmail.com"
+
+[[contacts]]
+icon = "\uf08c"
+text = "Victor BONNELLE"
+link = "https://www.linkedin.com/in/victor-bonnelle-36a69b278/"
+
+[[contacts]]
+icon = "\uf09b"
+text = "victorbnl"
+link = "https://www.github.com/victorbnl"
+
+
+[[soft_skills]]
+title = "Adaptabilité"
+values = ["Optimisme", "Logique"]
+
+[[soft_skills]]
+title = "Ouverture d'esprit"
+values = ["Curiosité", "Motivation"]
+
+[[soft_skills]]
+title = "Communication"
+values = ["Écriture"]
+
+
+[[skills]]
+title = "Développement"
+values = ["Python", "HTML, CSS, JS", "Rust", "Java & Kotlin", "C & C++"]
+
+[[skills]]
+title = "Administration"
+values = ["Linux", "Nix"]
+
+[[skills]]
+title = "Gestion de projets"
+values = ["Git"]
+
+[[skills]]
+title = "Multimédia"
+values = ["Suites office", "Montage photo / vidéo", "LaTeX, Typst"]
+
+
+[[studies]]
+title = "Licence d'informatique"
+date = "2024 - maintenant"
+place = "Faculté des Sciences Jean Perrin (62300)"
+points = []
+
+[[studies]]
+title = "Baccalauréat général (mention « bien »)"
+date = "2021 - 2023"
+place = "Lycée Albert Châtelet (62130)"
+points = [
+  "Spécialités : Mathématiques, NSI, [HLP]",
+  "Options : EURO Histoire-Géographie, Mathématiques expertes",
+  "LV2 : Espagnol",
+]
+
+
+[[experiences]]
+title = "Développeur embarqué"
+date = "juin - août 2024"
+place = "Emballages Maquet (62130)"
+desc = "Réalisation d'un télémètre laser connecté."
+points = [
+  "Rétro-ingénierie d'un capteur de télémètre laser",
+  "Serveur web, application mobile et protocole de communication Wi-Fi",
+  "Technologies : Rust sur ESP32, Kotlin Android",
+]
+
+[[experiences]]
+title = "Stage d’observation"
+date = "2020"
+place = "DRIM Info (62130)"
+desc = "Stage en vente et réparation de matériel informatique."
+points = [
+  "Démontage et montage d'ordinateurs",
+  "Conseil d’un client",
+  "Échanges divers avec le personnel",
+]
+
+
+[[activities]]
+title = "Compétition de programmation ARC"
+date = "2023"
+place = "Université d'Artois (62)"
+desc = "Résolution de problèmes algorithmiques le plus rapidement possible."
+points = [
+  "Travail en équipe de deux",
+  "Place : 5#super[ème] / 7",
+]
+
+[[activities]]
+title = "Concours d’éloquence"
+date = "2022"
+place = "Ligue des droits de l’Homme"
+desc = "Défense d’une cause devant un public."
+points = [
+  "Aisance à l’oral",
+  "Élaboration d’une argumentation accompagnée d’exemples",
+  "Place : 3#super[ème] / 6",
+]
+
+
+[[projects]]
+title = "Notepad# – Éditeur de texte"
+date = "2023"
+github = "victorbnl/notepad-sharp"
+points = [
+  "Implémentation d’un éditeur basique (création, lecture, sauvegarde)",
+  "Technologies : `C++`, `Qt`",
+]
+
+[[projects]]
+title = "SMBClone – Ébauche de jeu de plateforme"
+date = "2022"
+github = "victorbnl/super-mario-bros"
+points = [
+  "Réalisation d’un moteur de physique de base (gravité, collisions)",
+  "Technologies : `C++`, `SDL2`",
+]
+
+[[projects]]
+title = "Pong pour Arduboy"
+date = "2021"
+github = "victorbnl/arduboy-pong"
+points = [
+  "Création d’un jeu en 2D",
+  "Technologies : `Arduino`",
+]
+
+
+[misc]
+languages = [
+  "Français (natif)",
+  "Anglais (B2)",
+  "Espagnol (intermédiaire)",
+]
+interests = [
+  "Informatique",
+  "Langues étrangères",
+  "Philosophie",
+]
